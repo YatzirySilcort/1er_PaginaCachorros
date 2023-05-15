@@ -1,0 +1,48 @@
+
+body{
+    background-color: #e2e2e2; /*color del fondo*/
+    color: #7c7673; /*color de las letras*/
+    font-family: 'Roboto', sans-serif; /*Cambio de fuente. Aparecen varios tipos de fuente para tener opcion en caso de que el navegador no lo soporte, tome la siguiente.  Esta fuente se trajo de google fonts */
+}
+
+h1{/*estilo para titulos h1*/
+    color: #301400;
+}
+
+h3{/*estilopara titulos h3*/
+    color: #f4ac8d;
+    font-size: 25px; /*ayuda a cambiar el tamaño de las letras*/
+}
+
+p{/**estilo para parrafos*/
+    color:  #301400;
+}
+
+img{ /*estilo de las imagenes dentro del body*/
+    width: 400px; /*ayuda a ajustar el ancho de las imagenes*/
+    /*height: 330px;*/    /*ayuda a ajustar lo alto de la imagen*/
+    border-style: dashed solid ;  /*coloca un marco a la imagen, se puede poner un esstilo por cada lado, el orden va en sentido de las manecillas del reloj*/
+    border-color: #b3c483;
+    /*margin: 20px;*/ /*agrega un margen alrededor de la imagen.*/
+    margin-top: 20px; /*Tiene variables para solo crear espacio de un solo lado de la imagen*/
+    margin-left: 10px;
+    padding: 10px; /*Nos crea un espacio entre la imagen y el marco que agregamos*/
+}
+
+img.img1{ /*estilo para las imagenes de la clase "img1"*/
+    width: 900px;
+    height: 500px;
+    border-style: dashed solid ;
+    border-color: #b3c483;
+}
+
+img.img2{ /*estilo para las imagenes de la clase "img1"*/
+    width: 300px;
+    height: 200px;
+    border-style: dashed solid ;
+    border-color: #f4ac8d;
+}
+
+a, small{ /*assi se puede dar el mismo estilo a dos elementos diferentes*/
+    color: #f4ac8d;
+}

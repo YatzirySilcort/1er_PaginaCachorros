@@ -1,0 +1,96 @@
+<!DOCTYPE html>  <!--ESTAMOS INDICANDO QUE ES UN DOCUMENTO DE HTLM-->
+<html lang="es">
+    <!--Indentación: es la buena practica de acomodar el codigo para tener una buena guia-->
+    <head>
+        <!--Es la parte que no es parte de la pagina web, pero si elementos que la acompañan-->
+        <meta charset="UTF-8">
+        <title>Pagina de Perritos</title>
+        
+        <!--El href es para conectar la hoja de estilos con el archivo html-->
+        <link href="style.css" rel="stylesheet"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Reerencia a las fuentes de google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <header>
+
+    </header>
+
+    <body>
+        <!--titulos-->
+        <h1>Pagina de Perritos</h1>
+
+        <h3>Imagenes de Perritos</h3>
+
+        <!--imagen desde internet-->
+        <!--Se coloca la url de la imagen de internet-->
+        <img class="img1" src="https://traveldog.es/wp-content/uploads/2018/03/Fondo-Cachorro-Bichon-Maltes-1.jpg">
+
+        <br>
+        <!--Imagen desde computadora-->
+        <!--SE coloca la ruta de la imagen dentro de la carpeta del proyecto-->
+        <img class="img2" src="imagenes/patita.jpg">
+
+        <!--Crear enlaces externos-->
+        <!--p : es paragragh-->
+        <!--a : nos hace un texto como hipervinculo.  
+            href: es donde colocaremos la direccion a donde mandaremos con el hipervinculo
+            target: nos ayuda a que el hipervinculo se abra en otra pagina y no en la misma-->
+        <p>Si quieres ver más imagenes de perritos, <a href="https://www.bing.com/images/search?q=perritos&form=HDRSC3&first=1" target="_blank">da click aquí</a>.</p>
+        
+        <h3>Listas de perritos</h3>
+        <p3>3 Cosas que los perritos <strong>aman</strong></p3> <!--strong: es para poner el texto en negritas-->
+        
+        <ol> <!-- Listas ordenadas-->
+            <li>Acariciarlos</li> <!--Indica cada renglon de la lista-->
+            <li>Jugar</li>
+            <li>Comer sobres</li>
+        </ol>
+
+        <p3>3 Cosas que los perritos <strong>odian</strong></p3> <!--strong: es para poner el texto en negritas-->
+        
+        <ol> <!-- Listas ordenadas-->
+            <li>Que les griten</li> <!--Indica cada renglon de la lista-->
+            <li>Estar afuera</li>
+            <li>Animales extraños</li>
+        </ol>
+
+        <!--Formularios-->
+        <form>
+
+            <p>¿Tu perro es cachorro o adulto?</p>
+            <label>
+                <!--checked: marca la respuesta como de defaault-->
+                <input id="Cachorro" type="radio" value="Cachorro" name="Cachorro-Adulto" checked >Cachorro 
+            </label>
+            <br> <!--break: salto de linea-->
+            <label>
+                <input id="Adulto" type="radio" value="Adulto" name="Cachorro-Adulto">Adulto
+            </label>
+
+            <!--Formularios con casillas de verificacion checks-->
+            <p>Que tipo de personalidad tiene tu perro?</p>
+            <label>
+                <input id="enojon" type="checkbox" value="enojon" name="personalidad" checked>Enojon
+            </label>
+            <br>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad">Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="energico" type="checkbox" value="energico" name="personalidad">Energico
+            </label>
+
+        </form>
+
+    </body>
+
+    <footer>
+        <p><small>Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a></small></p>
+    </footer>
+
+</html>
